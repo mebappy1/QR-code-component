@@ -1,0 +1,90 @@
+:root {
+  --blue: #2c7dfa;
+  --blueShade: #3685ff;
+  --darkNavy: #1f314f;
+  --grey: #7d889e;
+  --lightGrey: #d5e1ef;
+  --white: #ffffff;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+  background: var(--lightGrey);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+/* Card Area */
+#card_area {
+  width: 320px;
+  background: var(--white);
+  padding: 16px 0 0;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#card_area img {
+  width: 288px;
+  height: 288px;
+  border-radius: 10px;
+}
+
+.card_content {
+  margin: 16px 16px 40px;
+  padding: 0 15px;
+}
+
+.card_content h4 {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--darkNavy);
+  margin-bottom: 16px;
+}
+
+.card_content p {
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--grey);
+  line-height: 1.5em;
+}
+
+/* Attribution */
+.attribution {
+  width: 320px;
+  margin: 16px 16px;
+  padding: 0 10px;
+  color: var(--darkNavy);
+  text-align: center;
+  margin: 20px 0 0;
+}
+
+.attribution a {
+  font-size: 15px;
+  font-weight: 400;
+  text-decoration: none;
+  line-height: 1.5em;
+}
