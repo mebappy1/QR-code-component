@@ -31,3 +31,6 @@ The designs were created to the following widths:
 - Weights: 400, 700
 
 > 💎 This is a free+ challenge. So, if you want to see all the design details and practice working with professional tools like Figma, you can download the design file from where you downloaded the starter code.
+
+## Author
+- Frontend Mentor - [@Azizur R. Bappy](https://www.frontendmentor.io/profile/mebappy1)
